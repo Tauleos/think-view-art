@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "coverage": "nyc npm test && nyc report --reporter=html",
-    "test": "ava test/index.js --verbose"
+    "test": "nyc ava test/index.js"
   },
   "repository": {
     "type": "git",
