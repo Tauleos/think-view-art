@@ -5,4 +5,4 @@ sudo: false
 script:
   - "npm test"
 after_success:
-  - 'npx nyc report --reporter=text-lcov|npx coveralls'
+  - './node_modules/.bin/nyc report --reporter=text-lcov | ./node_modules/.bin/coveralls'
