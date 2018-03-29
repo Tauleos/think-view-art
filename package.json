@@ -1,0 +1,27 @@
+{
+  "name": "think-view-art",
+  "version": "1.0.0",
+  "description": "use artTemplate to render view files for ThinkJs 3.x",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leo-enigma/think-view-art.git"
+  },
+  "keywords": [
+    "ThinkJs",
+    "view",
+    "artTemplate"
+  ],
+  "author": "leo-enigma",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/leo-enigma/think-view-art/issues"
+  },
+  "homepage": "https://github.com/leo-enigma/think-view-art#readme",
+  "dependencies": {
+    "art-template": "^4.12.2"
+  }
+}
