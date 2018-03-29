@@ -2,7 +2,7 @@
 const art = require('art-template')
 
 class ArtTemplate {
-  constructor (viewFile, viewData, config) {
+  constructor (viewFile, viewData, config={}) {
     this.viewFile = viewFile
     this.viewData = viewData
     this.config = config

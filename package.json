@@ -4,7 +4,8 @@
   "description": "use artTemplate to render view files for ThinkJs 3.x",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "coverage": "nyc npm test && nyc report --reporter=html",
+    "test": "ava test/index.js --verbose"
   },
   "repository": {
     "type": "git",
@@ -23,5 +24,10 @@
   "homepage": "https://github.com/leo-enigma/think-view-art#readme",
   "dependencies": {
     "art-template": "^4.12.2"
+  },
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "coveralls": "^3.0.0",
+    "nyc": "^11.6.0"
   }
 }
