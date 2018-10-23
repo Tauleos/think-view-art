@@ -9,21 +9,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/leo-enigma/think-view-art.git"
+    "url": "git+https://github.com/Tauleos/think-view-art.git"
   },
   "keywords": [
     "ThinkJs",
     "view",
     "artTemplate"
   ],
-  "author": "leo-enigma",
+  "author": "Tauleos",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/leo-enigma/think-view-art/issues"
+    "url": "https://github.com/Tauleos/think-view-art/issues"
   },
-  "homepage": "https://github.com/leo-enigma/think-view-art#readme",
+  "homepage": "https://github.com/Tauleos/think-view-art#readme",
   "dependencies": {
-    "art-template": "^4.12.2"
+    "art-template": "^4.13.1"
   },
   "devDependencies": {
     "ava": "^0.25.0",
