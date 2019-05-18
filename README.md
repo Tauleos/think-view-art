@@ -25,6 +25,9 @@ exports.view = {
     options: {
         //your self config here 
       compileDebug:true
+    },
+    beforeRender: (art, handleOptions) => {
+      //do something before render the template.
     }
   }
 }
