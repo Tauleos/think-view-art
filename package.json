@@ -1,6 +1,6 @@
 {
   "name": "think-view-art",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "use artTemplate to render view files for ThinkJs 3.x",
   "main": "index.js",
   "scripts": {
