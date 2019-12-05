@@ -1,6 +1,7 @@
 'use strict'
 const art = require('art-template')
 const fs = require('fs')
+const path = require('path')
 const util = require('util');
 const readFile = util.promisify(fs.readFile)
 
@@ -9,7 +10,7 @@ class ArtTemplate {
     this.viewFile = viewFile
     this.viewData = viewData
     this.config = config
-    this.handleOptions = {...config.options}
+    this.handleOptions = {...config.options, root: path.dirname(viewFile)}
   }
   
   async render () {
